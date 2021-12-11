@@ -1,6 +1,6 @@
 
 
-### Factors affecting BMI and factors BMI AFFECTS
+### Factors affecting BMI and factors BMI affects
 
 ### Introduction
 
