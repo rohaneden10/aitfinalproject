@@ -25,6 +25,7 @@ We tried to determine whether there is any relation between BMI and the insuranc
  
  The  rate amount of charges paid by the subjects who are non smokers with increasing bmi was very less compared to the charges by people who are smokers. The rate of increase was almost exponential for the smokers.
  ![Alt text](Image URL)
+![download (2)](https://user-images.githubusercontent.com/81614666/145688799-16a70efc-e4e2-4ab3-80ef-c7a9235e3740.png)
 
 
 
