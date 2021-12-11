@@ -2,16 +2,46 @@
 
 
 
-### Markdown
+### Introduction
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Body Mass Index or BMI is a parameter which can be used to determening whether a person is having appropriate height for their weight. Based on BMI, a person can bes classified as Underweight, Healthy, Overweight or Obese. The article is about study of  the factors that affects  BMI and the factors affects that BMI affects. In the study, the main focus was on to check whether there is any correlation between the smoking habits of a person and BMI and also to check how the insurance charges paid by the patient is affected by BMI and how the interaction of BMI and smoking habit afffect the insurance premium.
+
+### Datasets Used
+There were two datasets which were primarily used in the study with  BMI as the main variable of focus. The first dataset had many attributes of a subject like age, race, amount of nutrients intake etc. and the second dataset was about the insurance charges paid by the patients along with information about BMI and other factors as well. The dataset used was imported from kaggle website.
+
+
+### Data Preprocessing
+The datasets had a lot of variables of interests. The number of variables was narrowed down so as to focus on the topisc of interest. The BMI quantitative value was categorized into different sections based on the values of BMI. They were Obese, Healthy, Underweight and Overweight. The columns with no values were dropped.
+
+
+## Visualizations
+The below visualization show the count of records of people belonging to different BMI categories. The propotion of people who are obese and overweight is very high in the dataset compared to the people whi are healthy and underweight.
+
+
+We tried to determine whether there is any relation between BMI and the insurance charges paid by the patient. A scatter plot was plot between the two values and fitted a regression line into the scatterplot.There was a slight increase in the insurance charges paid by the patient with increase in BMI indicated by the slope of the line.
+
+ To dig more into the case, we plotted another scatterplot using the same variable but used the BMI Category to group the data points. The amount of charges paid by the people who were obese was very high when compared to others.
+ 
+ We tried to determine whether there is any relationship bewteen the combined effect of smoking and bmi on the insuracne charges. We plotted a sactter plot with bmi and charges and grouped the data points by smoking status. We also fitted regression lines to the same plot.
+ 
+ The  rate amount of charges paid by the subjects who are non smokers with increasing bmi was very less compared to the charges by people who are smokers. The rate of increase was almost exponential for the smokers.
+ ![Alt text](Image URL)
+
+
+
+
+
 
 ```markdown
 Syntax highlighted code block
 
-# Header 1
-## Header 2
+# Data Preprocessing
+The datasets had a lot of variables of interests. The number of variables was narrowed down so as to focus on the topics of interest. The BMI quantitative values was categorized into different sections based on the values of BMI. They were Obese, Healthy, Underweight and Overweight. The columns with no values were dropped.
+## Header 2![visualization (1)](https://user-images.githubusercontent.com/81614666/145682609-5348be3a-b8a5-4070-87b8-eb69bc3f8fc8.png)
+
 ### Header 3
+```markdown
+Syntax highlighted code block
 
 - Bulleted
 - List
@@ -21,7 +51,7 @@ Syntax highlighted code block
 
 **Bold** and _Italic_ and `Code` text
 
-[Link](url) and ![Image](src)
+[Link](url) and ![Image](C:\Users\15715\Downloads))C:\Users\15715\Downloads)
 ```
 
 For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
