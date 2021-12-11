@@ -19,7 +19,7 @@ The second dataset that we used consists of age, BMI, smoking status and the ins
 
 
 ### Data Preprocessing
-The datasets had a lot of variables of interests. The number of variables was narrowed down so as to focus on the topics of interest. The BMI quantitative value was categorized into different sections based on the values of BMI and a new column was added. They were Obese, Healthy, Underweight and Overweight. The columns with no values were dropped.This was done for the second dataset as well. Initially the smoking status column had values 1 and 2 for smoking and non smoking. They were changed into categories smoking and non-smoking. 
+The datasets had a lot of variables of interests. The number of variables was narrowed down so as to focus on the topics of interest. The BMI quantitative value was categorized into different sections based on the values of BMI and a new column was added. They were Obese, Healthy, Underweight and Overweight. The columns with no values were dropped.This was done for the second dataset as well. Initially the smoking status column had values 1 and 2 for smoking and non smoking. They were changed into categories smoking and non-smoking.
 
 
 ## Visualizations
