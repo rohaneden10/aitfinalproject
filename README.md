@@ -1,2 +1,2 @@
-# aitfinalproject
-Applied information technology 580 Final Project
+# APPLIED INFORMATION TECHNOLOGY 
+Applied Information Technology 580 Final Project
