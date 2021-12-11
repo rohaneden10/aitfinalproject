@@ -16,6 +16,7 @@ The datasets had a lot of variables of interests. The number of variables was na
 
 ## Visualizations
 The below visualization show the count of records of people belonging to different BMI categories. The propotion of people who are obese and overweight is very high in the dataset compared to the people whi are healthy and underweight.
+![GitHub Logo]('aitproject imagese/visualization (1).png')
 
 
 We tried to determine whether there is any relation between BMI and the insurance charges paid by the patient. A scatter plot was plot between the two values and fitted a regression line into the scatterplot.There was a slight increase in the insurance charges paid by the patient with increase in BMI indicated by the slope of the line.
