@@ -8,18 +8,18 @@ Body Mass Index or BMI is a parameter which can be used to determine whether a p
 
 ![bmi-body-mass-index-formula-260nw-765689137](https://user-images.githubusercontent.com/81614666/145690469-af9afed6-2202-425d-b524-db11651a3261.jpg)
 
-After doing this we also wanted to know how much of an impact does BMI and other health related markers play a role in the insurance charges that a person must pay annually. Of course, we all know that BMI must be having a significant impact on this factor but we wanted to compare this with other health markers.
+After doing this we also wanted to know how much of an impact does BMI and other health related markers play a in the insurance charges that a person must pay annually. Of course, we all know that BMI must be having a significant impact on this factor but we wanted to compare this with other health markers.
 
 
 
 ### Datasets Used
 There were two datasets which were primarily used in the study with  BMI as the main variable of focus. The first dataset that we used was Piyathilake diet dataset.The population that this study analyzed were pregnant women whose age ranged from 20-40 and most of them have had kids before. The reason why we chose this was we had a lot of variables to play like the nutrition, physical activity, type of food that they had with serving sizes were provided in the dataset. We wanted to find what are the major factors that affect the BMI.
-The second dataset that we used consists of age, BMI, smoking status and the insurance charges that the person will pay at the end of the year.The datasets were imported grom kaggle.
+The second dataset that we used consists of age, BMI, smoking status and the insurance charges that the person will pay at the end of the year.The datasets were imported from kaggle.
 
 
 
 ### Data Preprocessing
-The datasets had a lot of variables of interests. The number of variables was narrowed down so as to focus on the topics of interest. The BMI quantitative value was categorized into different sections based on the values of BMI. They were Obese, Healthy, Underweight and Overweight. The columns with no values were dropped.This was done for the second dataset as well..
+The datasets had a lot of variables of interests. The number of variables was narrowed down so as to focus on the topics of interest. The BMI quantitative value was categorized into different sections based on the values of BMI and a new column was added. They were Obese, Healthy, Underweight and Overweight. The columns with no values were dropped.This was done for the second dataset as well. Initially the smoking status column had values 1 and 2 for smoking and non smoking. They were changed into categories smoking and non-smoking. 
 
 
 ## Visualizations
@@ -42,11 +42,11 @@ The below visualization filters the datapoints for obese category and plots a sc
 
 
  
- We tried to determine whether there is any relationship between the combined effect of smoking and bmi on the insuracne charges. We plotted a sactter plot with bmi and charges and grouped the data points by smoking status. We also fitted regression lines to the same plot.
+ We tried to determine whether there is any relationship between the combined effect of smoking and bmi on the insurance charges. We plotted a sactter plot with bmi and charges and grouped the data points by smoking status. We also fitted regression lines to the same plot.
 ![download (6)](https://user-images.githubusercontent.com/81614666/145688936-799d6212-0768-4415-a037-5ff8192ded19.png)
 
 
- The  rate of amount of charges paid by the subjects who are non smokers with increasing bmi was very less compared to the charges by people who are smokers. The rate of increase was almost exponential for the smokers.From the linear regression we can conclude that smoking+obesity has a direct impact on the amount of charges that you pay. You may get away by just being obese but smoking+obesity looks like a recipe for disaster.
+ The  rate of amount of charges paid by the subjects who are non smokers with increasing bmi was very less compared to the charges by people who are smokers. The rate of increase was almost exponential for the smokers.From the linear regression we can conclude that smoking and obesity has a direct impact on the amount of charges that you pay. You may get away by just being obese but smoking+obesity looks like a recipe for disaster.
  
  ![download (7)](https://user-images.githubusercontent.com/81614666/145690714-31ddc9fd-f5e4-4243-9695-27d6a3137cde.png)
  
@@ -58,7 +58,7 @@ The below visualization filters the datapoints for obese category and plots a sc
 
 ![visualization (3)](https://user-images.githubusercontent.com/81614666/145689002-eac0ae70-92c5-4238-8768-91b5c2053b9b.png)
  
- We aslo tried to understand the relation between BMI Category and the races that we have available. The stacked bar graph above plots propotion of people in the different  BMI categories belonging To different races. The propotion of obese and overweight people in the African American race was very high compared to the Caucasian American race.
+ We aslo tried to understand the relation between BMI Category and the races that we had available. The stacked bar graph above plots propotion of people in the different  BMI categories belonging to different races. The propotion of obese and overweight people in the African American race was very high compared to the Caucasian American race.
  
  ![visualization (4)](https://user-images.githubusercontent.com/81614666/145689558-2d14499f-5c35-48bd-9ade-2ed8cadc0122.png)
  
@@ -66,7 +66,7 @@ The below visualization filters the datapoints for obese category and plots a sc
  
  
 # Conclusion
-So we can conclude that obese people and people who smoke at the same time pay significantly higher charges. The above findings are limited to the scope of dataset and doesnt always mean that it will be true for the real world. 
+So we can conclude that obese people and people who smoke at the same time pay significantly higher charges. The above findings are limited to the scope of dataset and doesn't always mean that it will be true for the real world. 
  
 
 
