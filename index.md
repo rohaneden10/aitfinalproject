@@ -1,8 +1,6 @@
-## Welcome to GitHub Pages
+## Factors Affecting BMI and Factors BMI affects
 
-You can use the [editor on GitHub](https://github.com/rohaneden10/aitfinalproject/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
 ### Markdown
 
